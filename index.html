@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,600&family=Poppins:ital@0;1&family=Dancing+Script&family=Permanent+Marker&family=Indie+Flower&family=Great+Vibes&family=Cormorant+Garamond:ital,wght@1,400;1,500&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Blooming Lilies Background -->
+<div class="lily-container" id="lily-container"></div>
+
+<!-- Music -->
+<audio id="bg-music" loop>
+  <source src="music/song.mp3" type="audio/mpeg">
+</audio>
+<button id="music-btn">▶ Play Music</button>
+<button id="theme-btn">🌙 Night</button>
+
+<!-- Hero -->
+<section class="hero">
+  <h1 id="name-reveal"></h1>
+  <p class="sub">My Love, I made something just for you</p>
+</section>
+
+<!-- Scrapbook Memories -->
+<section class="gallery reveal">
+  <h2>Our Little Memories ✨</h2>
+  <div class="scrapbook-grid" id="scrapbook-grid"></div>
+</section>
+
+<!-- Letter -->
+<section class="letter reveal">
+  <p id="typed-letter"></p>
+</section>
+
+<!-- Reasons I Love You -->
+<section class="reasons reveal">
+  <h2>Why I Love You 💕</h2>
+  <div class="reason-display" id="reason-text">Click below to see why you're special ❤️</div>
+  <button class="reason-btn" id="reason-btn">Show Me</button>
+</section>
+
+<!-- Question -->
+<section class="question reveal">
+  <h2>Will you be my Valentine? 🌷</h2>
+  <div class="buttons">
+    <button class="yes">Yes 💗</button>
+    <button class="yes">Always 💞</button>
+    <button class="no" id="no-btn">No</button>
+  </div>
+  <p id="yes-message" class="hidden">
+    I knew you'd say yes 🌷<br>
+    Happy Valentine's Day, my love.
+  </p>
+</section>
+
+<section class="card reveal">
+  <div class="card-box">
+    <h2>Happy Valentine's Day Love🌸</h2>
+    <p>
+      To the girl who made my world softer,<br>
+      brighter, and full of love.
+    </p>
+    <p class="sign">— Yours, always Sri</p>
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
